@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Form</title>
+		<script type="text/javascript" src="jsvalidation.js"></script>
+		<link rel="stylesheet" type="text/css" href="cssvalidation.css">
+	</head>
+	<body align="center">
+		<h1>Registration Form</h1>
+		<form>
+			 <label>Enter User Name</label>
+			<input type="text" name="name"  id="uname">
+			<span class="no-display error" id="Nerror">Enter username</span>
+			<span class="no-display error" id="Nerror"> username matches</span>
+			<br>
+			<label>Enter Password</label>
+			<input type="password" name="psw"  id="pword">
+			<span class="no-display" id="Perror"> Enter password</span>
+			<br>
+			<label>Enter phone number</label>
+			<input type="text" name="num"  id="num">
+			<span class="no-display" id="PNerror">Enter phone number</span>
+			<br>
+			<label>Enter email-Id</label>
+			<input type="email" name="email" id="email" >
+			<span class="no-display" id="Eerror">Enter email-ID</span>
+			<br>
+			<button type="button" onclick="validationForm();"> Enter</button>
+		</form>
+	</body>
+
+</html>

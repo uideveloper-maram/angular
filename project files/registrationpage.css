@@ -1,0 +1,20 @@
+body{
+	text-align:center;
+	background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCqmA434p56ccH50YDT6ARoqgK_n3OBf8JTtkrhLbPAarNLAyIREw8N7keuV4FNltX7FI&usqp=CAU");
+	
+	background-size:cover;
+}
+h1{
+	color:#de2173;
+	
+}
+a{
+	background-color:#e4f00e;
+	margin:2px;
+	padding:5px;
+	
+	
+}
+form{
+	
+}

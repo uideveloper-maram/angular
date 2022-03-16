@@ -1,0 +1,47 @@
+body{
+	background-color:#87f542;
+	
+}
+div{
+	text-align:center;
+	background-color:#23c4af;
+	width:250px;
+	position:relative;
+	top:200px;
+	left:500px;
+	height:200px;
+	border-radius:10px;
+	
+}
+#uname{
+	margin:6px;
+	margin-top:24px;
+	padding:6px;
+	background-color:pink;
+	border:none;
+	font-family:italic;
+	
+	
+}
+#pword{
+	margin:6px;
+	padding:6px;
+	background-color:pink;
+	border:none;
+	font-family:italic;
+}
+button{
+	
+	background-color:yellow;
+	border:10px;
+	padding-top:7px;
+	padding-bottom:7px;
+	padding-left:75px;
+	padding-right:75px;
+	margin:6px;
+	border-radius:10px;
+
+}
+.loginf{
+	border-radius:10px;
+}

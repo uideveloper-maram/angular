@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login form using table</title>
+		<style>
+			
+			table{
+				background-image:url("https://thumbs.dreamstime.com/z/autumn-landscape-nature-background-dried-flowers-water-drops-rain-field-banner-selective-focus-75038244.jpg");
+			}
+			body{
+				background-image:url("https://cdn.pixabay.com/photo/2016/11/10/14/16/floral-1814372_960_720.jpg")
+			}
+			h1{
+				background-image:url("C:/Users/09191233/Desktop/nandini/assets/pink-gc60981d7e_640.jpg");
+				background-repeat:no-repeat;
+				text-align:left;
+			}
+			#tab{
+				color:green;
+			}
+		</style>
+		
+		<script>
+			
+		function myButtonClick()
+		{
+			var userName=document.getElementById("uname").value;
+			var passWord=document.getElementById("pword").value;
+			
+			if ( userName=='demo' && passWord=='demo123')
+			{
+				console.log("login sucessfull");
+			}
+			else
+			{
+				console.log("LOgin fail");
+			}
+			
+		}
+		</script>
+	</head>
+	<body>
+		<h1>Login Form</h1>
+		<table align="center" id="tab">
+			<tbody>
+				<tr>
+					<td><label>Enter User Name:</label></td>
+					<td><input type="text" name="uname" id="uname" /></td>
+				</tr>
+				<tr>
+					<td><label>Enter Password:</label></td>
+					<td><input type="password" name="pword" id="pword"/></td>
+				</tr>
+				<tr>
+					<td>Click Enter Button goto Employee Table<a href="EmployeeTable.html">  </a></td>
+					<td><button onClick="myButtonClick();">Enter </button></td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
